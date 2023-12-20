@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="/Exercicio6/style/style.css">
+    <title> Exercicio 6 | Conversor de Moeda </title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="container">
+
+            <div class="top">
+
+                <select name="first-select" id="first-select">
+                    <option id="opt1" value="">Real</option>
+                    <option id="opt2" value="">Dólar</option>
+                </select>
+
+                <span id="btn-muda" onclick="mudaMoeda()" class="material-symbols-outlined">
+                    laps
+                </span>
+
+                <select name="second-select" id="second-select">
+                    <option id="opt3" value="">Dólar</option>
+                    <option id="opt4" value="">Real</option>
+                </select>
+
+
+            </div>
+
+
+
+            <div class="content">
+
+                <div class="convert">
+                    <h3>Conversor de moeda</h3>
+                    <input id="valorDigitado" type="text">
+
+                </div>
+
+                <div class="meio">
+                    <button id="btn-convert" onclick="converter()">CONVERTER</button>
+                </div>
+
+                <div class="result">
+                    <h3>Resultado</h3>
+                    <input id="result" type="text">
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

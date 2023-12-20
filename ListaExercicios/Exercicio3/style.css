@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+
+    background-image: url("fundodetela.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {
+    height: 100vh; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.container {
+
+    backdrop-filter: blur(50px);
+    color: #fff;
+
+    width: 500px;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#nome, #idade, #results {
+
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+
+    font-size: larger;
+    padding: 0 10px;
+
+   
+
+}
+.submit {
+    display: flex;
+    justify-content: center;
+
+}
+
+#submit_button {
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+
+    background-color: black;
+    border: none;
+    color: aliceblue;
+
+}
+#submit_button:hover {
+   color: #cf594a;
+
+}
+
+
+.box3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h4 {
+    margin-bottom: 3px;
+
+}
+
+#resultado {
+    font-size: 30px;
+
+}
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Nomes pessoas</h1>
+
+    <div class="inputs">
+        <input type="text" name="name" id="nome">
+        <input type="text" name="genero" id="genero">
+        <input type="number" name="idade" id="idade">
+    </div>
+
+    <br>
+
+    <button id="submit" onclick="adicionar_pessoa()">Enviar</button>
+
+    <div class="textarea">
+        <br>
+        <textarea name="resultados" id="resultados" cols="30" rows="10">
+
+
+        </textarea>
+    </div>
+
+    <br>
+
+    <button id="show" onclick="mostrar_info()">Mostrar pessoas</button>
+    <button id="maior" onclick="verificaMaior()">Verificar</button>
+
+    <script src="/exerc1/script.js"></script>
+</body>
+
+</html>

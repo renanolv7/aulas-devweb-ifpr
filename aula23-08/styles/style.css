@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Topo da minha página */
+.top {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 0.5px solid white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 70px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.links-nav {
+    margin: 30px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Icons */
+.material-symbols-outlined {
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #CBB26B;
+
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100%;
+
+    background-image: url("/aula23-08/Images/Fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    margin-bottom: 100vh;
+
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc {
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.aspas {
+    color: #CBB26B;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-evenly;
+    width: 50%;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.text {
+    display: flex;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: smaller;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+}
+
+h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+/* */
+.dom {
+    padding: 10px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.desc-dom {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+#tree {
+    margin: 0;
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+.tree :hover {
+    color: greenyellow
+}
+
+
+footer {
+    display: flex;
+    background: black;
+    padding: 15px;
+
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+
+}

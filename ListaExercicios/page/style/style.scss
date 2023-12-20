@@ -1,0 +1,251 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+
+}
+
+html {
+    height: 100vh;
+}
+
+
+/* Topo da minha página */
+.top {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 0.5px solid white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 70px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.links-nav {
+    margin: 30px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Icons */
+.material-symbols-outlined {
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #CBB26B;
+
+}
+
+body {
+    width: 100vw;
+
+    background-image: url("/page/images/Fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    margin: 20px 0;
+
+    background-color: black;
+    border-radius: 5px;
+
+    .card-header {
+
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        align-items: center;
+
+        .btn-link {
+            color: #CBB26B;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            gap: 10px;
+        }
+
+        #expand-more {
+            color: white;
+        }
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        width: auto;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
+.desc {
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.aspas {
+    color: #CBB26B;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.text {
+    display: flex;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: smaller;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+}
+
+h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+
+    margin: 100px;
+}
+
+.box,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+
+
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    border: 1px solid white;
+
+
+}
+
+footer {
+
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    position: fixed;
+
+    width: 100%;
+    font-size: 14px;
+
+    bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        height: 100%;
+
+    }
+
+    .container {
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        flex-direction: column;
+        width: 50%;
+        margin: 50px 10px;
+
+
+    }
+
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9,
+    .box10 {
+
+        width: 100%;
+    }
+
+    .links-nav {
+        display: none;
+    }
+
+    nav {
+        height: 75px;
+    }
+
+
+}

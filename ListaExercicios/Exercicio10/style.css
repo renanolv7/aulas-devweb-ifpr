@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('/Exercicio10/fundodetela.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container-title {
+
+    margin: 20px;
+
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frase,
+#textoParaSubstituir,
+#textoSubstituto {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    width: 70%;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+}

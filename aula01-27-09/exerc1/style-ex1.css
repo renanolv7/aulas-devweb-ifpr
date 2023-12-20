@@ -1,0 +1,10 @@
+p {
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    background: white;
+    color: darkviolet;
+    padding: 3px 10px;
+    width: 300px;
+    cursor: pointer;
+}

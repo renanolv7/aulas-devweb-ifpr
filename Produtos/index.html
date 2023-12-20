@@ -1,0 +1,43 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de produtos</h1>
+        <br>
+        <form> Escolha o tipo do seu produto:
+
+    
+            <select id="tipo_produto" name="prod">
+                <option value="bolacha">Bolacha</option>
+                <option value="azeite">Azeite</option>
+                <option value="feijao">Feijão</option>
+            </select>
+
+            <br>
+            <br>
+
+            <div class="inputs">
+                Nome do produto:<input type="text" id="nome">
+                Quantidade: <input type="text" id="qtde">
+                Cor: <input type="text" id="cor">
+            </div>
+
+
+            <input type="button" value="novo"><br>
+
+            <br>Resultados: <br>
+            <textarea></textarea>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

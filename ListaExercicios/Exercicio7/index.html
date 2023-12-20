@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 7</title>
+
+</head>
+
+<body>
+    <div class="inputs-info">
+        <div class="inputs">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <div class="inputs">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade">
+        </div>
+        <div class="inputs">
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </div>
+
+        <button id="submit" onclick="adicionarPessoa()">Adicionar</button>
+
+    </div>
+
+    <div class="buttons">
+        <button onclick="imprimirNomes()">Nomes</button>
+        <button onclick="imprimirNomeMaisVelho()">Mais velho</button>
+        <button onclick="imprimirNomeMaisNovo()">Mais novo</button>
+        <button onclick="imprimirMediaIdade()">Média idade</button>
+        <button onclick="imprimirPessoasEntreAeK()">Entre A e K</button>
+        <button onclick="imprimirMediaMenoresIdade()">Média menores idade</button>
+        <button onclick="imprimirMediaMulheres()">Média mulheres</button>
+        <button onclick="imprimirMediaHomens()">Média homens</button>
+        <button onclick="imprimirMediaMaioresIdadeMulheres()">Média mulheres maiores idade</button>
+        <button onclick="imprimirPessoasOrdemReversa()">Ordem reversa</button>
+    </div>
+
+    <div class="result">
+        <textarea id="resposta" name="resposta" rows="10" cols="50"></textarea>
+
+    </div>
+
+
+    <script src="/Exercicio7/script.js"></script>
+</body>
+
+</html>

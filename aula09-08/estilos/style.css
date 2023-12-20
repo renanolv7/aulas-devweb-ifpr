@@ -1,0 +1,42 @@
+* {
+    
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(100deg, rgb(187, 2, 2), rgb(182, 182, 182));
+    
+    color: white;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    font-size:large;
+}
+
+img {
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.btn {
+    background-color: black;
+    color: red;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.btn:hover{
+    color: white;
+}
